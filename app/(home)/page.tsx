@@ -1,7 +1,13 @@
 "use client";
 
-import SmokeScene from "../components/Scene/Scene";
+import Navigation from "../components/navigation/Navigation";
+import Scene from "../components/Scene/Scene";
 
 export default function Home() {
-  return <SmokeScene />;
+  return (
+    <>
+      <Navigation />
+      <Scene />
+    </>
+  );
 }
